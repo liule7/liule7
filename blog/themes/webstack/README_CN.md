@@ -68,9 +68,9 @@ banner: /images/webstack_banner_cn.png
 示例：
 ```yml
 logo:
-  expanded: /images/logo@2x.png
-  collapsed: /images/logo-collapsed@2x.png
-  dark: /images/logo_dark@2x.png
+  expanded: /images/logo-homepage.png
+  collapsed: /images/navigation-logo.png
+  dark: /images/navigation-logo.png
 ```
 
 ### flag
@@ -194,12 +194,12 @@ type: 'about'
 aboutPage:
   website:
     head: 关于本站
-    html: '<blockquote><p>本站是hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
+    html: '<blockquote><p>本站是Leo的网站导航栏</p></blockquote>'
   webmaster:
     head: 关于站长
-    name: HCLonely
-    url: https://blog.hclonely.com/
-    img: /images/logos/myblog.png
+    name: Leo
+    url: https://liule8.github.io/
+    img: /images/logos/avatar.png
     description: 懒人一个
     html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
 ```
@@ -253,9 +253,9 @@ custom:
 
 示例：
 ```yml
-- name: HCLonely Blog
-  url: https://blog.hclonely.com/
-  img: /images/logos/myBlog.png
+- name: Leo Blog
+  url: https://liule8.github.io/
+  img: /images/logos/avatar.png
   description: 一个懒人的博客。
 ```
 
@@ -275,9 +275,9 @@ menu:
 - 在主题的`_config.yml`里添加：
 ```yml
 hotTools:
-  - name: HCLonely Blog
-    url: https://blog.hclonely.com/
-    img: /images/logos/myBlog.png
+  - name: Leo Blog
+    url: https://liule8.github.io/
+    img: /images/logos/avatar.png
     description: 一个懒人的博客。
   - name: Github
     url: https://github.com/
@@ -286,9 +286,9 @@ hotTools:
 ```
 - 在`站点根目录/source/_data/`(没有自行创建)内新建`hotTools.yml`文件，文件内容如下：
 ```yml
-- name: HCLonely Blog
-  url: https://blog.hclonely.com/
-  img: /images/logos/myBlog.png
+- name: Leo Blog
+  url: https://liule8.github.io/
+  img: /images/logos/avatar.png
   description: 一个懒人的博客。
 - name: Github
   url: https://github.com/

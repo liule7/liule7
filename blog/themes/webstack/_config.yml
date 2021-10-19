@@ -17,37 +17,80 @@ githubCorner: '<a href="https://github.com/liule8/" class="github-corner" aria-l
 menu:
   - name: 常用网站
     icon: far fa-star
-    config: hotTools
+    submenu:
+      - name: 常用平台
+        icon: fas fa-tools
+        config: hotTools
+      - name: 我的博客
+        icon: fas fa-blog
+        config: myBlog
+  - name: 学习网站
+    icon: far fa-star
+    config: learn
   - name: 其他工具
     icon: fas fa-tools
     submenu:
       - name: 开发工具
         icon: fas fa-tools
         config: devTools
-      - name: 我的博客
-        icon: fas fa-blog
-        config: myBlog
+      - name: 云服务
+        icon: fas fa-cloud
+        config: cloud
 
-testPage:
-  - name: Child Page
-    url: /child
-    img: /images/logos/myblog.png
-    description: 子页面测试
-devTools:
-  - name: Github
-    url: https://github.com/
+hotTools:
+  - name: 我的Github
+    url: https://github.com/liule8
     img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-
+    description:
+  - name: 我的Gitee
+    url: https://gitee.com/leonote
+    img: /images/logos/gitee.png
+    description:
 myBlog:
-  - name: Leo's Navigation
+  - name: 我的博客
     url: https://liule8.github.io/
-    img: /images/logos/myBlog.png
-    description: 一个懒人的博客。
+    img: /images/logos/avatar.png
+    description: 主站
+devTools:
+  - name: Try Redis
+    url: https://try.redis.io/
+    img: /images/logos/redis.png
+    description: 在线使用redis,无需自己部署
+cloud:
+  - name: 腾讯云
+    url: https://cloud.tencent.com/
+    img: /images/logos/tencent-cloud.png
+    description: 域名
+  - name: 七牛云
+    url: https://portal.qiniu.com/
+    img: /images/logos/qiniu-cloud-png
+    description: 图床
+learn:
+  - name: 拉勾教育
+    url: https://kaiwu.lagou.com/
+    img: /images/logos/lagou-edu.png
+    description:
+  - name: 极客时间
+    url: https://time.geekbang.org/
+    img: /images/logos/geek-edu.png
+    description:
+  - name: 少数派
+    url: https://sspai.com/
+    img: /images/logos/pai-edu.png
+    description:
+  - name: 芋道源码
+    url: https://www.iocoder.cn/
+    img: /images/logos/iocode-edu.png
+    description:
+  - name: LeetCode
+    url: https://leetcode-cn.com/
+    img: /images/logos/leetcode-edu.png
+    description: 算法
+  - name: Algorithm Visualizer
+    url: https://algorithm-visualizer.org/
+    img: /images/logos/visualer-edu.png
+    description: 算法动态演示
+
 
 about:
   url: /about/
