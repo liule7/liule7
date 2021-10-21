@@ -82,6 +82,14 @@ learn:
     url: https://www.iocoder.cn/
     img: /images/logos/iocode-edu.png
     description:
+  - name: 美团技术
+      url: https://tech.meituan.com/
+      img: /images/logos/meituan-edu.png
+      description:
+  - name: 有赞技术
+      url: https://tech.youzan.com/
+      img: /images/logos/youzan-edu
+      description:
   - name: LeetCode
     url: https://leetcode-cn.com/
     img: /images/logos/leetcode-edu.png
