@@ -88,7 +88,7 @@ learn:
     description: 美团技术团队发布的文章
   - name: 有赞技术
     url: https://tech.youzan.com/
-    img: /images/logos/youzan-edu
+    img: /images/logos/youzan-edu.png
     description: 有赞技术团队发布的文章
   - name: LeetCode
     url: https://leetcode-cn.com/
