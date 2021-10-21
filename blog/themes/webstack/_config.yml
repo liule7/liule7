@@ -55,7 +55,11 @@ devTools:
   - name: Try Redis
     url: https://try.redis.io/
     img: /images/logos/redis.png
-    description: 在线使用redis,无需自己部署
+    description: 在线使用redis，无需自己部署
+  - name: 小闪电
+    url: https://jsrun.net/
+    img: /images/logos/jsrun
+    description: 支持30多种语言在线运行，如MySQL、Lua等
 cloud:
   - name: 腾讯云
     url: https://cloud.tencent.com/
