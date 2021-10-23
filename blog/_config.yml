@@ -104,5 +104,5 @@ theme: webstack
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/liule7/liule7.github.io.git
+  repository: git@github.com:liule7/liule7.github.io.git
   branch: master
