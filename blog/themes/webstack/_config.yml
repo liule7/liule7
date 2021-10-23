@@ -58,7 +58,7 @@ devTools:
     description: 在线使用redis，无需自己部署
   - name: 小闪电
     url: https://jsrun.net/
-    img: /images/logos/jsrun
+    img: /images/logos/jsrun.png
     description: 支持30多种语言在线运行，如MySQL、Lua等
 cloud:
   - name: 腾讯云
