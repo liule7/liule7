@@ -70,9 +70,9 @@ banner: /images/webstack_banner_cn.png
 Examples:
 ```yml
 logo:
-  expanded: /images/logo-homepage.png
-  collapsed: /images/navigation-logo.png
-  dark: /images/navigation-logo.png
+  expanded: /images/home-logo.png
+  collapsed: /images/avatar.png
+  dark: /images/avatar.png
 ```
 
 ### flag

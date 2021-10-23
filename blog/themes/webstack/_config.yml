@@ -2,9 +2,9 @@ favicon: /favicon.ico
 banner: /images/webstack_banner_cn.png
 
 logo:
-  expanded: /images/logo-homepage.png
-  collapsed: /images/navigation-logo.png
-  dark: /images/navigation-logo.png
+  expanded: /images/home-logo.png
+  collapsed: /images/avatar.png
+  dark: /images/avatar.png
 
 flag:
   icon: flag-cn
@@ -103,12 +103,6 @@ learn:
     img: /images/logos/visualer-edu.png
     description: 算法动态演示
 
-
-about:
-  url: /about/
-  icon: far fa-heart
-  name: 关于本站
-
 aboutPage:
   website:
     head: 关于本站
@@ -124,7 +118,7 @@ since: 2020
 
 busuanzi:
   enable: true
-  position: sidebar # 'footer','sidebar'
+  position: footer # 'footer','sidebar'
   pv: 本站总访问量$pv
   uv: 本站总访客数$uv
 
