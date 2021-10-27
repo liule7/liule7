@@ -2,9 +2,9 @@ favicon: /favicon.ico
 banner: /images/webstack_banner_cn.png
 
 logo:
-  expanded: /images/logo-homepage.png
-  collapsed: /images/navigation-logo.png
-  dark: /images/navigation-logo.png
+  expanded: /images/home-logo.png
+  collapsed: /images/avatar.png
+  dark: /images/avatar.png
 
 flag:
   icon: flag-cn
@@ -58,7 +58,11 @@ devTools:
   - name: Try Redis
     url: https://try.redis.io/
     img: /images/logos/redis.png
-    description: 在线使用redis,无需自己部署
+    description: 在线使用redis，无需自己部署
+  - name: 小闪电
+    url: https://jsrun.net/
+    img: /images/logos/jsrun.png
+    description: 支持30多种语言在线运行，如MySQL、Lua等
 drawTools:
   - name: drawio
     url: https://app.diagrams.net/
@@ -90,6 +94,14 @@ learn:
     url: https://www.iocoder.cn/
     img: /images/logos/iocode-edu.png
     description:
+  - name: 美团技术
+    url: https://tech.meituan.com/
+    img: /images/logos/meituan-edu.png
+    description: 美团技术团队发布的文章
+  - name: 有赞技术
+    url: https://tech.youzan.com/
+    img: /images/logos/youzan-edu.png
+    description: 有赞技术团队发布的文章
   - name: LeetCode
     url: https://leetcode-cn.com/
     img: /images/logos/leetcode-edu.png
@@ -98,12 +110,6 @@ learn:
     url: https://algorithm-visualizer.org/
     img: /images/logos/visualer-edu.png
     description: 算法动态演示
-
-
-about:
-  url: /about/
-  icon: far fa-heart
-  name: 关于本站
 
 aboutPage:
   website:
@@ -120,7 +126,7 @@ since: 2020
 
 busuanzi:
   enable: true
-  position: sidebar # 'footer','sidebar'
+  position: footer # 'footer','sidebar'
   pv: 本站总访问量$pv
   uv: 本站总访客数$uv
 
